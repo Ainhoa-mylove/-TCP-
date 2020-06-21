@@ -3,7 +3,7 @@ import struct
 
 def go_on(c):
     #利用struct定义数据传输包格式（整形、32位字符串、整形、浮点型）
-    st=struct.Struct('i32sif')
+    st=struct.Struct('i32sii')
     #再E盘创建一个txt文本用于后面的数据输入
     f=open(r'E:\my.txt','a')
     while True:
